@@ -1,0 +1,22 @@
+{
+  "name": "storage-keeper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "local-storage",
+    "typescript",
+    "localStorage"
+  ],
+  "author": "Vijay Gaikwad",
+  "license": "ISC",
+  "description": "A simple package for handling local storage in TypeScript",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

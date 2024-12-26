@@ -3,16 +3,24 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-vijaygaikwad/storage-keeper.git"
+  },
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish"
   },
   "keywords": [
     "local-storage",
     "typescript",
     "localStorage"
   ],
-  "author": "Vijay Gaikwad",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "author": "Vijay Gaikwad <dev.vijay.gaikwad@gmail.com>",
   "license": "ISC",
   "description": "A simple package for handling local storage in TypeScript",
   "devDependencies": {

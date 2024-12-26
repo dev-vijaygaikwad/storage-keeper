@@ -5,7 +5,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dev-vijaygaikwad/storage-keeper.git"
+    "url": "git+https://github.com/dev-vijaygaikwad/storage-keeper.git"
   },
   "scripts": {
     "build": "tsc",
@@ -18,7 +18,7 @@
     "localStorage"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "Vijay Gaikwad <dev.vijay.gaikwad@gmail.com>",
   "license": "ISC",
